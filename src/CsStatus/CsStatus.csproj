@@ -12,7 +12,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="X11" Version="1.0.6" />
+      <PackageReference Include="X11" Version="1.0.6" Condition=" '$(WIN_SYSTEM)' == 'X11' " />
     </ItemGroup>
 
 </Project>
